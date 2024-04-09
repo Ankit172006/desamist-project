@@ -1,0 +1,118 @@
+
+/* #061224d6 */
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: 'Saira', sans-serif;
+}
+.mainheadercontainer
+{
+    height: 80px;
+    background-color: #061224d6;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.image_container
+{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.naving_container
+{
+    width: 100%;
+    /* display: flex; */
+    align-items: center;
+}
+.naving_list2
+{
+    display: flex;
+    justify-content: end;
+    height: 80px;
+    align-items: center;
+    gap: 50px;
+    width: 89%;
+}
+.naving_bar
+{
+    display: none;
+}
+.naving_bar i
+{
+    font-size: 25px;
+}
+.naving_list li
+{
+    list-style: none;
+    font-size: 21px;
+    font-weight: 400;
+    color: #de960fd1;
+}
+.logo_section
+{
+    width: 130px;
+    height: 80px;
+}
+.section
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+}
+@media only screen and (max-width:750px)
+{
+    .naving_list
+    {
+        flex-direction: column;
+        height: 49%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 42px;
+        transition: all.9s;
+        padding-left: 0px;
+    }
+    .naving_container
+    {
+        width: 100%;
+        align-items: center;
+        transition: all .9s;
+        background-color: #061224d6;
+        position: fixed;
+        top: 76px;
+        right: -100%;
+        height: 100vh;
+    }
+    .naving
+    {
+        height: 100vh;
+        display: flex;
+        width: 100%;
+        background-color: #061224d6;
+        position: absolute;
+        top: 76px;
+        flex-direction: column;
+        right: 0%;
+        transition: all.9s;
+        position: fixed;
+    }
+
+    .naving_bar
+    {
+        display: flex;
+        height: 36px;
+        align-items: center;
+        justify-content: end;
+        width: 88%;
+        padding: 23px;
+    }
+}
+
+
+/* display: flex;
+flex-direction: column;
+height: 99%;
+width: 75%; */
