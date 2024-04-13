@@ -1,0 +1,104 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height:100%;
+    background-color: #fff;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.swiper-pagination
+{
+    /* height: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.swipe__container
+{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:80px;
+    width: 85%;
+}
+.person_proflie
+{
+    height: 320px;
+    width: 300px;
+    background-color:#061224d6;
+    border-radius: 10px;
+}
+.main_container
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+.img_container img
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.tittle_container
+{
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 22px;
+  color: #2355c0;
+}
+.bio_container
+{
+  color: #de960fd1;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7rem;
+}
+.swiper-backface-hidden 
+{
+  backface-visibility: unset;
+}
